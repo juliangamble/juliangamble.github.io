@@ -1,0 +1,12 @@
+# Site settings
+title: Julian Gamble - extra notes
+email: mail@juliangamble.com
+description: > # this means to ignore newlines until "baseurl:"
+  This is a place to host some demos.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://juliangamble.github.io" # the base hostname & protocol for your site
+twitter_username: juliansgamble
+github_username:  juliangamble
+
+# Build settings
+markdown: kramdown
