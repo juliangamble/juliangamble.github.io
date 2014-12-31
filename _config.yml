@@ -10,3 +10,23 @@ github_username:  juliangamble
 
 # Build settings
 markdown: kramdown
+exclude: ["Julian Gamble - github-io-106e433c42f6.p12"]
+
+jekyll_ga:
+  service_account_email: 468686423051-j0vpnn26gdfe98gusbm2o5uo7i4o9sp1@developer.gserviceaccount.com   # service account email address
+  key_file: pJulian Gamble - github-io-106e433c42f6.p12  # service account private key file
+  key_secret: notasecret    # service account private key's password
+  profileID: ga:53285364        # profile ID - Behaviour > Site Content > Landing Pages
+  start: last month         # Beginning of report
+  end: now                  # End of report
+  metric: ga:pageviews      # Metric code
+  segment:                  # optional
+  filters:                  # optional
+  sort: false                # Sort posts by this metric
+
+jekyll_sort:
+  - src: posts
+    by: _ga
+    direction: down
+    dest: posts_popular
+
